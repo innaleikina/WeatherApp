@@ -44,29 +44,19 @@ body {
 
 @keyframes cloud {
   from {
-    margin-right: 0rem;
+    margin-right: 3rem;
   }
   to {
     margin-right: 4rem;
   }
 }
 
-@media only screen and (max-width: 400px) {
-  @keyframes cloud {
-    from {
-      margin-right: 0rem;
-    }
-    to {
-      margin-right: 1rem;
-    }
-  }
-}
 .cloud-all {
   justify-content: center;
   margin-right: 4rem;
   margin-top: 1rem;
-  animation-name: cloud;
-  animation-duration: 2s;
+  animation: cloud 2s ;
+
 }
 
 .sun-circle {
