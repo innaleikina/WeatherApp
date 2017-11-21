@@ -166,6 +166,13 @@ body {
   flex-direction: column;
 }
 
+@media only screen and (max-width:350px) {
+  .info-all {
+
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   .info-all {
     margin-top: 1rem;
