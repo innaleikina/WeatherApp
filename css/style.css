@@ -1,6 +1,7 @@
 html {
   font-size: 14px;
   font-family: "Roboto";
+  margin:0;
 }
 
 body {
@@ -41,7 +42,7 @@ body {
 .logo {
   width: 100%;
 }
-
+/*
 @keyframes cloud {
   from {
     margin-right: 3rem;
@@ -49,7 +50,7 @@ body {
   to {
     margin-right: 4rem;
   }
-}
+}*/
 
 .cloud-all {
   justify-content: center;
