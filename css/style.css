@@ -42,7 +42,7 @@ body {
 .logo {
   width: 100%;
 }
-/*
+
 @keyframes cloud {
   from {
     margin-right: 3rem;
@@ -50,14 +50,19 @@ body {
   to {
     margin-right: 4rem;
   }
-}*/
+}
 
 .cloud-all {
   justify-content: center;
   margin-right: 4rem;
   margin-top: 1rem;
   animation: cloud 2s ;
+}
 
+@media only screen and (max-width:380px){
+  .cloud-all{
+  display:none;
+}
 }
 
 .sun-circle {
@@ -76,6 +81,12 @@ body {
   height: 10rem;
 }
 
+
+@media only screen and (max-width:380px){
+  .cloud-background{
+  display:none;
+}
+}
 .cloud {
   z-index: 1;
   margin-left: -3.2rem;
@@ -281,6 +292,6 @@ button:active {
   text-align: center;
 }
 
-*{background: #000 !important;
+/**{background: #000 !important;
 color: #0f0 !important;
-outline: solid #f00 1px !important;}
+outline: solid #f00 1px !important;}*/
