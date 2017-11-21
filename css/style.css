@@ -30,7 +30,7 @@ body {
   margin-top: 2rem;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width:330px) {
   .app {
     overflow-x: hidden;
     margin-top: 0;
