@@ -179,17 +179,11 @@ body {
   flex-direction: column;
 }
 
-@media only screen and (max-width: 480px) {
-  .info-all {
-    width:80%;
-    margin-top: 3rem;
-  }
-}
 
 @media only screen and (max-width: 350px) {
   .info-all {
     width:100%;
-    margin-top: 1rem;
+
   }
 }
 .location-name {
