@@ -169,11 +169,11 @@ body {
 @media only screen and (max-width: 480px) {
   .info-all {
     width:80%;
-    margin-top: 1rem;
+    margin-top: 3rem;
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 350px) {
   .info-all {
     width:100%;
     margin-top: 1rem;
@@ -278,3 +278,7 @@ button:active {
   padding-bottom: 0;
   text-align: center;
 }
+
+*{background: #000 !important;
+color: #0f0 !important;
+outline: solid #f00 1px !important;}
